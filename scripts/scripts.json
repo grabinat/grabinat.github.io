@@ -1,0 +1,56 @@
+{
+	"scripts": 
+  {
+		"script": 
+    [
+			{
+				"name": "allowExternalUrls.js",
+				"url": "https://raw.githubusercontent.com/grabinat/grabinat.github.io/master/scripts/allowExternalUrls.js",
+				"description": "",
+        "version": ""
+			},
+			{
+				"name": "attachSignature.js",
+				"url": "https://raw.githubusercontent.com/grabinat/grabinat.github.io/master/scripts/attachSignature.js",
+				"description": "",
+        "version": ""
+			},
+			{
+				"name": "catchEvents.js",
+				"url": "https://raw.githubusercontent.com/grabinat/grabinat.github.io/master/scripts/catchEvents.js",
+				"description": "",
+        "version": ""
+			},
+			{
+				"name": "closeGoogleNotifiers.js",
+				"url": "https://raw.githubusercontent.com/grabinat/grabinat.github.io/master/scripts/closeGoogleNotifiers.js",
+				"description": "",
+        "version": ""
+			}, 
+			{
+				"name": "detachSignature.js",
+				"url": "https://raw.githubusercontent.com/grabinat/grabinat.github.io/master/scripts/detachSignature.js",
+				"description": "",
+        "version": ""
+			},
+			{
+				"name": "jquery-3.2.1.min.js",
+				"url": "https://raw.githubusercontent.com/grabinat/grabinat.github.io/master/scripts/jquery-3.2.1.min.js",
+				"description": "",
+        "version": ""
+			},
+      {
+         "name": "mark.min.js",
+         "url": "https://raw.githubusercontent.com/grabinat/grabinat.github.io/master/scripts/mark.min.js",
+         "description": "",
+         "version": ""
+      },
+      {
+         "name": "shareContent.js",
+         "url": "https://raw.githubusercontent.com/grabinat/grabinat.github.io/master/scripts/shareContent.js",
+         "description": "",
+         "version": ""
+      },
+		]
+	}
+}
