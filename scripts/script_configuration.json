@@ -46,18 +46,5 @@
       "Url": "https://raw.githubusercontent.com/grabinat/grabinat.github.io/master/scripts/shareContent.js",
       "Description": "",
       "Version": ""
-   },
-   {
-      "Name": "TestDownloaderScript1.js",
-      "Url": "https://raw.githubusercontent.com/grabinat/grabinat.github.io/master/scripts/TestDownloaderScript1.js",
-      "Description": "",
-      "Version": ""
-   },
-   {
-      "Name": "TestDownloaderScript2.js",
-      "Url": "https://raw.githubusercontent.com/grabinat/grabinat.github.io/master/scripts/TestDownloaderScript2.js",
-      "Description": "",
-      "Version": ""
-   }
-   
+   } 
 ]
