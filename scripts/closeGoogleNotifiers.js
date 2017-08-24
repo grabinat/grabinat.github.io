@@ -1,11 +1,10 @@
 ﻿(function () {
     try {
-        var topNotifierButton = document.getElementsByClassName('gb_xb gb_md gb_Ca');
+        var topNotifierButton = document.getElementsByClassName('gb_yb gb_pd gb_Ba');
         for (var k = 0; k < topNotifierButton.length; k++) {
             topNotifierButton[k].click();
         }
-
-        var topNotifier = document.querySelector('.gb_Lc.gb_g');
+        var topNotifier = document.querySelector('.gb_Pc gb_g');
         if (topNotifier) {
             for (var k = 0; k < topNotifier.length; k++) {
                 topNotifier[k].style.display = 'none';
