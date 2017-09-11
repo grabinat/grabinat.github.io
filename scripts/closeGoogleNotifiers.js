@@ -1,6 +1,6 @@
 ﻿(function () {
     try {
-        var topNotifierButton = document.getElementsByClassName('gb_yb gb_pd gb_Ba');
+        var topNotifierButton = document.getElementsByClassName('gb_Ba gb_pd gb_9c');
         for (var k = 0; k < topNotifierButton.length; k++) {
             topNotifierButton[k].click();
         }
@@ -15,7 +15,7 @@
         for (var i = 0; i < gkeep.length; i++) {
             gkeep[i].style.display = 'none';
         }
-        var gcalendar = document.getElementsByClassName('gb_jb gb_9f gb_R gb_8f gb_T');
+        var gcalendar = document.getElementsByClassName('gb_fa gb_g');
         for (var j = 0; j < gcalendar.length; j++) {
             gcalendar[j].style.display = 'none';
         }
