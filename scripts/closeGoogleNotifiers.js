@@ -1,6 +1,6 @@
 (function (){
     try {
-        var topNotifierButton = document.getElementsByClassName('gb_xa gb_rd gb_vd');
+        var topNotifierButton = document.getElementsByClassName('gb_xa gb_wd gb_Ad');
         for (var k = 0; k < topNotifierButton.length; k++) {
             topNotifierButton[k].click();
         }
