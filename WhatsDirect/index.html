@@ -1,0 +1,16 @@
+<h1>WhatsDirect</h1>
+
+
+Telephone Number: <input type="text" id="number" value=""><br>
+<button type="button" onclick="myFunction()" >Chat</button>
+
+<script>
+  function myFunction() {
+  var strNumber= document.getElementById("number").value;
+  var url = 'whatsapp://send?phone=' + strNumber; 
+  open(url);
+}
+</script>
+
+                                              
+                                             
