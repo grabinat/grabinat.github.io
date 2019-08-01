@@ -1,6 +1,6 @@
 (function (){
     try {
-        var topNotifierButton = document.getElementsByClassName('gb_xa gb_wd gb_Ad');
+        var topNotifierButton = document.getElementsByClassName('gb_1 gb_nd gb_od');
         for (var k = 0; k < topNotifierButton.length; k++) {
             topNotifierButton[k].click();
         }
@@ -9,7 +9,7 @@
             topNotifier[s].style.display = 'none';
         }
         
-        var gkeep = document.getElementsByClassName('gb_id gb_jd gb_7c gb_od gb_g');
+        var gkeep = document.getElementsByClassName('gb_y gb_gd gb_g gb_Kf');
         for (var i = 0; i < gkeep.length; i++) {
             gkeep[i].style.display = 'none';
         }
