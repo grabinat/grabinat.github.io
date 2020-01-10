@@ -1,0 +1,1 @@
+[{"Name":"external_links.js","Url":"test_uri","Version":{"Major":1,"Minor":0,"Build":0,"Revision":0},"Services":{"Google":["Mailbox","Contacts","Calendar","Notes"],"Outlook":["Mailbox","People","Calendar"]}},{"Name":"google_notifier.js","Url":"test_uri","Version":{"Major":1,"Minor":0,"Build":0,"Revision":0},"Services":{"Google":["Mailbox","Calendar"]}}]
