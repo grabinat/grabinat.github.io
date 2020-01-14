@@ -1,4 +1,3 @@
-$(document).ready(function ()
-{
-    $(".gb_C gb_ed gb_i gb_If").css("display", "none");
+$(document).ready(function () {
+    $('.gb_C .gb_D, .gb_E .gb_C .gb_D').hide();
 });
