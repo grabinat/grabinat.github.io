@@ -18,9 +18,20 @@
         "Major": 1,
         "Minor": 0,
         "Build": 0,
-        "Revision": 1
+        "Revision": 0
     },
     "Services": {
         "Google": ["Mailbox", "Calendar"]
+}, {
+    "Name": "suppress_google_apps.js",
+    "Url": "https://raw.githubusercontent.com/grabinat/grabinat.github.io/master/scripts/easymail_3/suppress_google_apps.js",
+    "Version": {
+        "Major": 1,
+        "Minor": 0,
+        "Build": 0,
+        "Revision": 0
+    },
+    "Services": {
+        "Google": ["Mailbox", "Calendar", "Contacts", "Notes" ]
     }
 }]
