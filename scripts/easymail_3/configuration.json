@@ -34,5 +34,17 @@
     },
     "Services": {
         "Google": ["Mailbox", "Calendar", "Contacts", "Notes" ]
+}, {
+    "Name": "insert_text_template.js",
+    "Url": "https://raw.githubusercontent.com/grabinat/grabinat.github.io/master/scripts/easymail_3/insert_text_template.js",
+    "Version": {
+      "Major": 1,
+      "Minor": 0,
+      "Build": 0,
+      "Revision": 0
+    },
+    "Services": {
+      "Google": [ "Mailbox", "New Mail" ],
+      "Outlook": [ "Mailbox", "New Mail" ]
     }
 }]
