@@ -1,40 +1,49 @@
-[{
+[
+  {
     "Name": "external_uris.js",
     "Url": "https://raw.githubusercontent.com/grabinat/grabinat.github.io/master/scripts/easymail_3/external_uris.js",
     "Version": {
-        "Major": 1,
-        "Minor": 0,
-        "Build": 0,
-        "Revision": 0
+      "Major": 1,
+      "Minor": 0,
+      "Build": 0,
+      "Revision": 0
     },
+
     "Services": {
-        "Google": ["Mailbox", "Contacts", "Calendar", "Notes"],
-        "Outlook": ["Mailbox", "People", "Calendar"]
+      "Google": [ "Mailbox", "Contacts", "Calendar", "Notes" ],
+      "Outlook": [ "Mailbox", "People", "Calendar" ]
     }
-}, {
+  },
+
+  {
     "Name": "suppress_google_notifiers.js",
     "Url": "https://raw.githubusercontent.com/grabinat/grabinat.github.io/master/scripts/easymail_3/suppress_google_notifiers.js",
     "Version": {
-        "Major": 1,
-        "Minor": 0,
-        "Build": 0,
-        "Revision": 0
+      "Major": 1,
+      "Minor": 0,
+      "Build": 0,
+      "Revision": 0
     },
     "Services": {
-        "Google": ["Mailbox", "Calendar"]
+      "Google": [ "Mailbox", "Calendar" ]
     }
-}, {
+  },
+
+  {
     "Name": "suppress_google_apps.js",
     "Url": "https://raw.githubusercontent.com/grabinat/grabinat.github.io/master/scripts/easymail_3/suppress_google_apps.js",
     "Version": {
-        "Major": 1,
-        "Minor": 0,
-        "Build": 0,
-        "Revision": 0
+      "Major": 1,
+      "Minor": 0,
+      "Build": 0,
+      "Revision": 0
     },
     "Services": {
-        "Google": ["Mailbox", "Calendar", "Contacts", "Notes" ]
-}, {
+      "Google": [ "Mailbox", "Calendar", "Contacts", "Notes" ]
+    }
+  },
+
+  {
     "Name": "insert_text_template.js",
     "Url": "https://raw.githubusercontent.com/grabinat/grabinat.github.io/master/scripts/easymail_3/insert_text_template.js",
     "Version": {
@@ -47,4 +56,5 @@
       "Google": [ "Mailbox", "New Mail" ],
       "Outlook": [ "Mailbox", "New Mail" ]
     }
-}]
+  }
+]
