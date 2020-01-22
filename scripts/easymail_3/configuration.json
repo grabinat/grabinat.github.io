@@ -1,4 +1,5 @@
-  {
+  [
+    {
     "Name": "external_uris.js",
     "Url": "https://raw.githubusercontent.com/grabinat/grabinat.github.io/master/scripts/easymail_3/external_uris.js",
     "Version": {
@@ -71,3 +72,4 @@
       "Outlook": [ "Mailbox", "New Mail" ]
     }
   }
+]
