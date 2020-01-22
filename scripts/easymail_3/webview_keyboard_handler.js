@@ -8,17 +8,17 @@
         }
         function keydown(e) {
 
+            var payload = {
+                Ctrl: e.ctrlKey,
+                Alt: e.altKey,
+                Shift: e.shiftKey,
+                Key: e.key.charCodeAt(0),
+                VirtualKey: e.keyCode
+            }
+
             var res = {
                 Type: "KeyboardEvent",
-                Value: {
-                    Ctrl: e.ctrlKey,
-                    Alt: e.altKey,
-                    Shift: e.shiftKey,
-                    Char: e.char,
-                    Key: e.key,
-                    KeyCode: e.keyCode,
-                    Type: e.type
-                }
+                Value: JSON.stringify(payload)
             }
             showMsg(JSON.stringify(res));
         }
