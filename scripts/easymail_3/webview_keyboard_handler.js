@@ -7,20 +7,24 @@
             window.addEventListener("keydown", keydown, false);
         }
         function keydown(e) {
+            if (e.altKey && e.ctrlKey && !e.shiftKey) {
+                var keyCode = e.keyCode;
+                var code = keyCode - 48 * Math.floor(keyCode / 48);
+                var char = String.fromCharCode((96 <= keyCode) ? code : keyCode);
 
-            var payload = {
-                Ctrl: e.ctrlKey,
-                Alt: e.altKey,
-                Shift: e.shiftKey,
-                Key: e.key.charCodeAt(0),
-                VirtualKey: e.keyCode
+                var payload = {
+                    Ctrl: e.ctrlKey,
+                    Alt: e.altKey,
+                    Shift: e.shiftKey,
+                    KeyCode: code,
+                    Key: char
+                }
+                var res = {
+                    Type: "KeyboardEvent",
+                    Value: JSON.stringify(payload)
+                }
+                showMsg(JSON.stringify(res));
             }
-
-            var res = {
-                Type: "KeyboardEvent",
-                Value: JSON.stringify(payload)
-            }
-            showMsg(JSON.stringify(res));
         }
         window.catchEvents = catchEvents;
     }
