@@ -7,17 +7,14 @@
             window.addEventListener("keydown", keydown, false);
         }
         function keydown(e) {
-            if (e.altKey && e.ctrlKey && !e.shiftKey) {
-                var keyCode = e.keyCode;
-                var code = keyCode - 48 * Math.floor(keyCode / 48);
-                var char = String.fromCharCode((96 <= keyCode) ? code : keyCode);
-
+            if (e.altKey && e.ctrlKey && !e.shiftKey && (e.keyCode >= 48 && e.keyCode <= 57 || e.keyCode >= 65 && e.keyCode <= 90 || e.keyCode > 96 && e.keyCode <= 105))
+            {
                 var payload = {
                     Ctrl: e.ctrlKey,
                     Alt: e.altKey,
                     Shift: e.shiftKey,
-                    KeyCode: code,
-                    Key: char
+                    KeyCode: e.keyCode,
+                    Key: e.keyCode
                 }
                 var res = {
                     Type: "KeyboardEvent",
