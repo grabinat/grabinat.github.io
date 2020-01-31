@@ -56,5 +56,20 @@
       "Google": [ "Mailbox", "New Mail" ],
       "Outlook": [ "Mailbox", "New Mail" ]
     }
+  },
+
+  {
+    "Name": "webview_keyboard_handler.js",
+    "Url": "https://raw.githubusercontent.com/grabinat/grabinat.github.io/master/scripts/easymail_3/webview_keyboard_handler.js",
+    "Version": {
+      "Major": 1,
+      "Minor": 0,
+      "Build": 0,
+      "Revision": 0
+    },
+    "Services": {
+      "Google": [ "Mailbox", "New Mail" ]
+    }
   }
+
 ]
