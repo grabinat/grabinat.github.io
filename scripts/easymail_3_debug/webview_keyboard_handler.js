@@ -22,7 +22,7 @@
                 }
                 showMsg(JSON.stringify(res));
             }
-            else if ((e.ctrlKey || altKey) && !e.shiftKey && (e.keyCode >= 49 && e.keyCode <= 57 || e.keyCode >= 97 && e.keyCode <= 105)) {
+            else if ((e.ctrlKey || e.altKey) && !e.shiftKey && (e.keyCode >= 49 && e.keyCode <= 57 || e.keyCode >= 97 && e.keyCode <= 105)) {
                 var payload = {
                     Ctrl: e.ctrlKey,
                     Alt: e.altKey,
