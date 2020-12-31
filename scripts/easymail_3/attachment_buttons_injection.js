@@ -39,7 +39,7 @@
                             if (exists == true)
                                 continue;
 
-                            var html = '<div id="EasyButtons" class="easyBtn"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><style> .divBtn { background-color: rgba(98,98,98,1); text-align:center; border-radius: 3px; line-height: 23px; margin-right: 8px; min-width: 0; float: left; border: none; height: 24px; width: 30px; color: white; padding: 0 px; font-size: 14px; cursor: pointer; } .divBtn:hover { background-color: rgba(49, 49, 49, 1); } </style> <div tagName="Launch EasyPDF" class="divBtn" url="$URL$" data-tooltip="Open in EasyPDF" role="button"><i style="pointer-events: none; cursor: default;" class="fa fa-home"></i></div></div>';
+                            var html = '<div id="EasyButtons" class="easyBtn"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.0/css/all.css"><style> .divBtn { background-color: rgba(98,98,98,1); text-align:center; border-radius: 3px; line-height: 23px; margin-right: 8px; min-width: 0; float: left; border: none; height: 24px; width: 30px; color: white; padding: 0 px; font-size: 14px; cursor: pointer; } .divBtn:hover { background-color: rgba(49, 49, 49, 1); } </style> <div tagName="Launch EasyPDF" class="divBtn" url="$URL$" data-tooltip="Open in new window" role="button"><i style="pointer-events: none; cursor: default;" class="fa fa-external-link-alt"></i></div></div>';
                             var div = createFromString(html.split('$URL$').join(aTag.href));
 
                             buttonsContainer.insertBefore(div, buttons[0]);
