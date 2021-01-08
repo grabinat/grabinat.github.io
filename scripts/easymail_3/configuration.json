@@ -73,9 +73,9 @@
   },
 
   {
-    "Name": "search.js",
-    "Url": "https://raw.githubusercontent.com/grabinat/grabinat.github.io/master/scripts/easymail_3/search.js",
-    "Version": {
+  "Name": "search.js",
+  "Url": "https://raw.githubusercontent.com/grabinat/grabinat.github.io/master/scripts/easymail_3/search.js",
+  "Version": {
       "Major": 1,
       "Minor": 0,
       "Build": 0,
@@ -84,35 +84,34 @@
     "Services": {
       "Google": [ "Mailbox", "New Mail", "Contacts", "Calendar", "Notes" ],
       "Outlook": [ "Mailbox", "People", "Calendar", "Files" ]
-    },
-
-    {
-      "Name": "attachment_buttons_injection.js",
-      "Url": "https://raw.githubusercontent.com/grabinat/grabinat.github.io/master/scripts/easymail_3/attachment_buttons_injection.js",
-      "Version": {
-        "Major": 1,
-        "Minor": 0,
-        "Build": 0,
-        "Revision": 0
-      },
-      "Services": {
-        "Google": [ "Mailbox" ]
-      }
-    },
-
-    {
-      "Name": "document_observer.js",
-      "Url": "https://raw.githubusercontent.com/grabinat/grabinat.github.io/master/scripts/easymail_3/document_observer.js",
-      "Version": {
-        "Major": 1,
-        "Minor": 0,
-        "Build": 0,
-        "Revision": 0
-      },
-      "Services": {
-        "Google": [ "Mailbox" ]
-      }
     }
+  },
 
+  {
+    "Name": "attachment_buttons_injection.js",
+    "Url": "https://raw.githubusercontent.com/grabinat/grabinat.github.io/master/scripts/easymail_3/attachment_buttons_injection.js",
+    "Version": {
+      "Major": 1,
+      "Minor": 0,
+      "Build": 0,
+      "Revision": 0
+    },
+    "Services": {
+      "Google": [ "Mailbox" ]
+    }
+  },
+
+  {
+    "Name": "document_observer.js",
+    "Url": "https://raw.githubusercontent.com/grabinat/grabinat.github.io/master/scripts/easymail_3/document_observer.js",
+    "Version": {
+      "Major": 1,
+      "Minor": 0,
+      "Build": 0,
+      "Revision": 0
+    },
+    "Services": {
+      "Google": [ "Mailbox" ]
+    }
   }
 ]
